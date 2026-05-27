@@ -249,13 +249,7 @@ The application uses a Single Table Inheritance (STI) strategy:
 
 See `backend/src/main/resources/schema.sql` for the complete schema.
 
----
 
-## Deployment
-
-The frontend is deployed at: **https://htm5djvthydmg.kimi.page**
-
----
 
 ## License
 

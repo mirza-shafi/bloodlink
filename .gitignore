@@ -1,0 +1,50 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.classpath
+.project
+.settings/
+*.iml
+
+# Java / Maven (Backend)
+backend/target/
+backend/.mvn/
+backend/*.jar
+backend/*.war
+backend/bin/
+
+# Node / React (Client)
+client/node_modules/
+client/dist/
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.svelte-kit/
+client/.next/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Credentials, Keys, and Local Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+*.key
+credentials.json
+client/.env*
+!client/.env.example
